@@ -1,7 +1,6 @@
-import React, { Component } from 'react';
+import React from 'react';
 import Contact from './Contact';
 import PropTypes from 'prop-types';
-import css from './ContactList.module.css';
 
 export const ContactList = props => {
   const { contacts, filter, deleteFunction } = props;
