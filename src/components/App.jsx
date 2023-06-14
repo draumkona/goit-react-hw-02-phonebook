@@ -48,7 +48,7 @@ export class App extends Component {
         <h1>Phonebook</h1>
         <ContactForm onSubmit={this.addContact} />
 
-        <h1>Contacts</h1>
+        <h2>Contacts</h2>
         <Filter changeHandler={this.changeFilterValue} />
         <ContactList
           filter={this.state.filter}
